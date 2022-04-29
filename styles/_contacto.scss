@@ -27,7 +27,7 @@ $text-mobile: .8em;
 
 $bottom: 70px;
 $top-web: 140px;
-$top-mobile: 75px;
+$top-mobile: 80px;
 //STYLES
 
 #contacto_content {
@@ -100,6 +100,485 @@ $top-mobile: 75px;
                             color: #0072b1;
                         }
 
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    #contacto_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+            color: $color2;
+            font-size: $title-web;
+            font-family: $font-4;
+            width: 80%;
+            padding-top: 15px;
+        }
+        .contacto_boxes {
+            width: 70%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color3;
+            border-radius: 10px;
+            .mapa {
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    color: $color1;
+                    font-family: $font-4;
+                }
+            }
+            .datos_contacto {
+                width: 50%;
+                height: 100%;
+                font-family: $font-4;
+                color: $color1;
+                font-size: 1em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                .redes_sociales {
+                    a {
+                        i {
+                            color :$color1;
+                            margin-right: 25px;
+                            font-size: 1.5em;
+                        }
+                        #facebook{
+                            transition: .2s;
+                            &:hover{
+                                color: #4267B2;
+                            }
+                        }
+                        #instagram{
+                            transition: .2s;
+                            &:hover {
+                                color: #E1306C;
+                            }
+                        }
+                        #linkedin{
+                            transition: .2s;
+                            &:hover {
+                                color: #0072b1;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #contacto_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+            color: $color2;
+            font-size: $title-web;
+            font-family: $font-4;
+            width: 80%;
+            padding-top: 15px;
+        }
+        .contacto_boxes {
+            width: 70%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color3;
+            border-radius: 10px;
+            padding: 20px;
+            .mapa {
+                width: 50%;
+                height: 100%;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    color: $color1;
+                    font-family: $font-4;
+                }
+            }
+            .datos_contacto {
+                width: 100%;
+                height: 100%;
+                font-family: $font-4;
+                color: $color1;
+                font-size: 1.3em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                .redes_sociales {
+                    a {
+                        i {
+                            color :$color1;
+                            margin-right: 25px;
+                            font-size: 1.5em;
+                        }
+                        #facebook{
+                            transition: .2s;
+                            &:hover{
+                                color: #4267B2;
+                            }
+                        }
+                        #instagram{
+                            transition: .2s;
+                            &:hover {
+                                color: #E1306C;
+                            }
+                        }
+                        #linkedin{
+                            transition: .2s;
+                            &:hover {
+                                color: #0072b1;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #contacto_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+            color: $color2;
+            font-size: $title-web;
+            font-family: $font-4;
+            width: 90%;
+            padding-top: 15px;
+        }
+        .contacto_boxes {
+            width: 70%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color3;
+            border-radius: 10px;
+            padding: 20px;
+            .mapa {
+                width: 50%;
+                height: 100%;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    color: $color1;
+                    font-family: $font-4;
+                }
+            }
+            .datos_contacto {
+                width: 100%;
+                height: 100%;
+                font-family: $font-4;
+                color: $color1;
+                font-size: 1.3em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                .redes_sociales {
+                    a {
+                        i {
+                            color :$color1;
+                            margin-right: 25px;
+                            font-size: 1.5em;
+                        }
+                        #facebook{
+                            transition: .2s;
+                            &:hover{
+                                color: #4267B2;
+                            }
+                        }
+                        #instagram{
+                            transition: .2s;
+                            &:hover {
+                                color: #E1306C;
+                            }
+                        }
+                        #linkedin{
+                            transition: .2s;
+                            &:hover {
+                                color: #0072b1;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #contacto_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+            color: $color2;
+            font-size: $title-web;
+            font-family: $font-4;
+            width: 90%;
+            padding-top: 15px;
+        }
+        .contacto_boxes {
+            width: 90%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color3;
+            border-radius: 10px;
+            padding: 20px;
+            .mapa {
+                width: 50%;
+                height: 100%;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    color: $color1;
+                    font-family: $font-4;
+                }
+            }
+            .datos_contacto {
+                width: 100%;
+                height: 100%;
+                font-family: $font-4;
+                color: $color1;
+                font-size: 1.3em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                .redes_sociales {
+                    a {
+                        i {
+                            color :$color1;
+                            margin-right: 25px;
+                            font-size: 1.5em;
+                        }
+                        #facebook{
+                            transition: .2s;
+                            &:hover{
+                                color: #4267B2;
+                            }
+                        }
+                        #instagram{
+                            transition: .2s;
+                            &:hover {
+                                color: #E1306C;
+                            }
+                        }
+                        #linkedin{
+                            transition: .2s;
+                            &:hover {
+                                color: #0072b1;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px) {
+    #contacto_content {
+        padding-top: $top-mobile;
+        padding-bottom: $bottom;
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+            color: $color2;
+            font-size: $title-web;
+            font-family: $font-4;
+            width: 90%;
+            padding-top: 15px;
+        }
+        .contacto_boxes {
+            width: 90%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color3;
+            border-radius: 10px;
+            padding: 20px;
+            .mapa {
+                width: 50%;
+                height: 100%;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    color: $color1;
+                    font-family: $font-4;
+                }
+            }
+            .datos_contacto {
+                width: 100%;
+                height: 100%;
+                font-family: $font-4;
+                color: $color1;
+                font-size: 1.3em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                .redes_sociales {
+                    a {
+                        i {
+                            color :$color1;
+                            margin-right: 25px;
+                            font-size: 1.5em;
+                        }
+                        #facebook{
+                            transition: .2s;
+                            &:hover{
+                                color: #4267B2;
+                            }
+                        }
+                        #instagram{
+                            transition: .2s;
+                            &:hover {
+                                color: #E1306C;
+                            }
+                        }
+                        #linkedin{
+                            transition: .2s;
+                            &:hover {
+                                color: #0072b1;
+                            }
+    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    #contacto_content {
+        padding-top: $top-mobile;
+        padding-bottom: $bottom;
+        width: 100vw;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .title {
+            color: $color2;
+            font-size: $title-web;
+            font-family: $font-4;
+            width: 90%;
+            padding-top: 15px;
+        }
+        .contacto_boxes {
+            width: 90%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color3;
+            border-radius: 10px;
+            padding: 20px;
+            .mapa {
+                width: 50%;
+                height: 100%;
+                display: none;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    color: $color1;
+                    font-family: $font-4;
+                }
+            }
+            .datos_contacto {
+                width: 100%;
+                height: 100%;
+                font-family: $font-4;
+                color: $color1;
+                font-size: 1em;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                .redes_sociales {
+                    a {
+                        i {
+                            color :$color1;
+                            margin-right: 25px;
+                            font-size: 1.5em;
+                        }
+                        #facebook{
+                            transition: .2s;
+                            &:hover{
+                                color: #4267B2;
+                            }
+                        }
+                        #instagram{
+                            transition: .2s;
+                            &:hover {
+                                color: #E1306C;
+                            }
+                        }
+                        #linkedin{
+                            transition: .2s;
+                            &:hover {
+                                color: #0072b1;
+                            }
+    
+                        }
                     }
                 }
             }

@@ -47,8 +47,12 @@ $top-mobile: 75px;
         justify-content: space-between;
         svg{
             padding: 0 20px 0 20px;
-            width: 250px;
+            width: 200px;
             transition: .1s;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0;
             &:hover {
                 transform: scale(1.1);
             }
@@ -79,3 +83,158 @@ $top-mobile: 75px;
         }
     }
 }
+
+@media screen and (max-width: 1350px) {
+    #nav_container{
+        width: 100vw;    
+        min-height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: $color3;
+        z-index: 9;        
+        #navbar {
+            height: 100%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            svg{                
+                width: 200px;
+                transition: .1s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .navbar{
+                width: 50%;
+                .nav_links{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li{
+                        list-style: none;
+                        a{
+                            text-transform: uppercase;
+                            font-family: $font-4;
+                            font-size: 1.3em;
+                            color: $color1;
+                            text-decoration: none;
+                            transition: .1s;
+                            &:hover{
+                                color: $color2;
+                                font-size: 5em;
+                            }                    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #nav_container{
+        width: 100vw;    
+        min-height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: $color3;
+        z-index: 9;        
+        #navbar {
+            height: 100%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            svg{
+                width: 200px;
+                transition: .1s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .navbar{
+                width: 50%;
+                .nav_links{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li{
+                        list-style: none;
+                        a{
+                            text-transform: uppercase;
+                            font-family: $font-4;
+                            font-size: 1.3em;
+                            color: $color1;
+                            text-decoration: none;
+                            transition: .1s;
+                            &:hover{
+                                color: $color2;
+                                font-size: 3em;
+                            }                    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #nav_container{
+        width: 100vw;    
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: $color3;
+        z-index: 9;        
+        #navbar {
+            height: 100%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            svg{
+                display: none;
+                width: 200px;
+                transition: .1s;
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+            .navbar{
+                width: 80%;
+                .nav_links{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    li{
+                        list-style: none;
+                        a{
+                            text-transform: uppercase;
+                            font-family: $font-4;
+                            font-size: 1.3em;
+                            color: $color1;
+                            text-decoration: none;
+                            transition: .1s;
+                            &:hover{
+                                color: $color2;
+                                font-size: 3em;
+                            }                    
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

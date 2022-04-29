@@ -27,7 +27,7 @@ $text-mobile: .8em;
 
 $bottom: 70px;
 $top-web: 140px;
-$top-mobile: 75px;
+$top-mobile: 80px;
 //STYLES
 
 #empresa-content {
@@ -85,6 +85,130 @@ $top-mobile: 75px;
                 color: $color3;
                 font-family: $font-3;
                 font-size: $text-web;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #empresa-content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .titulo {
+            width: 90%;        
+            margin-top: 15px;
+            h1 {
+                text-transform: uppercase;
+                color: $color2;
+                font-family: $font-4;
+                font-size: $title-web;
+            }
+            p {
+                color: $color3;
+                font-family: $font-3;
+                font-size: $text-web;
+            }
+        }
+    
+        .mision {
+            width: 90%;        
+            margin-top: 15px;
+            h1 {
+                text-transform: uppercase;
+                color: $color2;
+                font-family: $font-4;
+                font-size: $title-web;
+            }
+            p {
+                color: $color3;
+                font-family: $font-3;
+                font-size: $text-web;
+            }
+        }
+    
+        .valores {
+            width: 90%;        
+            margin-top: 15px;
+            h1 {
+                text-transform: uppercase;
+                color: $color2;
+                font-family: $font-4;
+                font-size: $title-web;
+            }
+            ul {
+                padding-left: 30px;
+                li {
+                    color: $color3;
+                    font-family: $font-3;
+                    font-size: $text-web;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #empresa-content {
+        padding-top: $top-mobile;
+        padding-bottom: $bottom;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .titulo {
+            width: 90%;        
+            margin-top: 15px;
+            h1 {
+                text-transform: uppercase;
+                color: $color2;
+                font-family: $font-4;
+                font-size: $title-web;
+            }
+            p {
+                color: $color3;
+                font-family: $font-3;
+                font-size: $text-web;
+            }
+        }
+    
+        .mision {
+            width: 90%;        
+            margin-top: 15px;
+            h1 {
+                text-transform: uppercase;
+                color: $color2;
+                font-family: $font-4;
+                font-size: $title-web;
+            }
+            p {
+                color: $color3;
+                font-family: $font-3;
+                font-size: $text-web;
+            }
+        }
+    
+        .valores {
+            width: 90%;        
+            margin-top: 15px;
+            h1 {
+                text-transform: uppercase;
+                color: $color2;
+                font-family: $font-4;
+                font-size: $title-web;
+            }
+            ul {
+                padding-left: 30px;
+                li {
+                    color: $color3;
+                    font-family: $font-3;
+                    font-size: $text-web;
+                }
             }
         }
     }
