@@ -1,0 +1,46 @@
+//VARIABLES
+//COLORS
+$color1: #3d3d3d;
+$color2: #F2922E;
+$color3: #E0E0E0;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap');
+$font-1: 'Archivo', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
+$font-2: 'Work Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+$font-3: 'Source Code Pro', monospace;
+
+//FONT SIZES
+
+$title-web: 4em;
+$title-mobile: 2em;
+$text-web: 1.2em;
+$text-mobile: .8em;
+
+//PADDING
+
+$bottom: 70px;
+$top-web: 140px;
+$top-mobile: 75px;
+//STYLES
+
+#footer{    
+    background-color: $color1;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    z-index: 8;
+    p{
+        font-family: $font-3;
+        color: $color3;
+        font-size: 0.9em;
+        text-align: center;
+    }
+}

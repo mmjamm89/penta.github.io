@@ -1,0 +1,950 @@
+//VARIABLES
+//COLORS
+$color1: #3d3d3d;
+$color2: #F2922E;
+$color3: #E0E0E0;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap');
+$font-1: 'Archivo', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
+$font-2: 'Work Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+$font-3: 'Source Code Pro', monospace;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+$font-4: 'Bebas Neue', cursive;
+
+//FONT SIZES
+
+$title-web: 4em;
+$title-mobile: 2em;
+$text-web: 1.2em;
+$text-mobile: .8em;
+
+//PADDING
+
+$bottom: 70px;
+$top-web: 140px;
+$top-mobile: 75px;
+//STYLES
+
+#obras_content {
+    padding-top: $top-web;
+    padding-bottom: $bottom;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    #obras {
+        width: 80%;
+        .titulo {
+            font-size: $title-web;
+            font-family: $font-4;
+            color: $color2;
+            width: 100%;
+            padding-top: 15px;
+        }
+        .selector_obras {
+            height: 500px;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 50px 0 50px 0;
+            .obra_1 {                
+                height: 90%;
+                width: 90%;
+                background-image: url(assets/img1.jpeg);
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                border-radius: 10px;
+                transition: .1s;
+                &:hover {
+                    transform: scale(1.04);
+                }
+                .obra_1_link {
+                    background-color: $color1;
+                    width: 100%;
+                    padding: 15px;
+                    opacity: .9;
+                    border-radius: 0 0 10px 10px;
+                    transition: .1s;
+                    &:hover {
+                        background-color: $color2;
+                        color: $color1;
+                        opacity: 1;
+                    }
+                    h3 {
+                        color: $color3;
+                        font-family: $font-4;
+                        font-size: 2em;
+                        line-height: 1;
+                    }
+                    h1 {
+                        color: $color3;
+                        font-family: $font-4;
+                        font-size: 4em;
+                        line-height: 1;
+                    }
+                    a {
+                        text-decoration: none;
+                        h2 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                            transition: .1s;
+                            &:hover {
+                                color: $color1;
+                            }
+                        }
+                    }
+                }
+            }
+            .obra_2 {
+                height: 90%;
+                width: 90%;
+                background-image: url(assets/img1.jpeg);
+                display: flex;
+                align-items: flex-end;
+                justify-content: flex-start;
+                border-radius: 10px;
+                transition: .1s;
+                &:hover {
+                    transform: scale(1.04);
+                }
+                .obra_2_link {
+                    background-color: $color1;
+                    width: 100%;
+                    padding: 15px;
+                    opacity: .9;
+                    border-radius: 0 0 10px 10px;
+                    transition: .1s;
+                    &:hover {
+                        background-color: $color2;
+                        color: $color1;
+                        opacity: 1;
+                    }
+                    h3 {
+                        color: $color3;
+                        font-family: $font-4;
+                        font-size: 2em;
+                        line-height: 1;
+                    }
+                    h1 {
+                        color: $color3;
+                        font-family: $font-4;
+                        font-size: 4em;
+                        line-height: 1;
+                    }
+                    a {
+                        text-decoration: none;
+                        h2 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                            transition: .1s;
+                            &:hover {
+                                color: $color1;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .obras_finalizadas {
+            .titulo_finalizadas {
+                color: $color2;
+                font-family: $font-4;
+                font-size: $title-web;
+                padding-top: 20px;
+            }
+        }
+        .obras_destacadas_container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            place-items: center;
+            padding: 20px 0 20px 0;
+            margin: 30px 0 30px 0;
+            .obras_destacadas {
+                border-radius: 10px;
+                background-color: $color3;
+                width: 300px;
+                height: 400px;
+                padding: 20px;
+                transition: .1s;
+                &:hover {
+                    transform: scale(1.05);
+                }
+                .obras_destacadas_titulo {
+                    color: $color1;
+                    font-family: $font-4;
+                    font-size: 3em;
+                    text-align: center;                    
+                }
+                .obras_destacadas_desc {
+                    color: $color1;
+                    font-family: $font-1;
+                    height: 80px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .obras_destacadas_datos {
+                    color: $color1;
+                    font-family: $font-4;
+                    font-size: 1em;
+                }
+                a {
+                    text-decoration: none;
+                    h1 {
+                        color: $color1;
+                        font-size: 2em;
+                        font-family: $font-4;
+                        height: 75px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        transition: .1s;
+                        &:hover {
+                            color: $color2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #obras_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        #obras {
+            width: 90%;
+            .titulo {
+                font-size: $title-web;
+                font-family: $font-4;
+                color: $color2;
+                width: 100%;
+                padding-top: 15px;
+            }
+            .selector_obras {
+                height: 500px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                grid-template-columns: repeat(2, 1fr);
+                margin: 50px 0 50px 0;
+                .obra_1 {                
+                    height: 90%;
+                    width: 90%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_1_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .obra_2 {
+                    height: 90%;
+                    width: 90%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_2_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .obras_finalizadas {
+                .titulo_finalizadas {
+                    color: $color2;
+                    font-family: $font-4;
+                    font-size: $title-web;
+                    padding-top: 20px;
+                }
+            }
+            .obras_destacadas_container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                place-items: center;
+                padding: 20px 0 20px 0;
+                margin: 30px 0 30px 0;
+                .obras_destacadas {
+                    border-radius: 10px;
+                    background-color: $color3;
+                    width: 300px;
+                    height: 400px;
+                    padding: 20px;
+                    .obras_destacadas_titulo {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 3em;
+                        text-align: center;                    
+                    }
+                    .obras_destacadas_desc {
+                        color: $color1;
+                        font-family: $font-1;
+                        height: 80px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .obras_destacadas_datos {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 1em;
+                    }
+                    a {
+                        text-decoration: none;
+                        h1 {
+                            color: $color1;
+                            font-size: 2em;
+                            font-family: $font-4;
+                            height: 75px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: .5s;
+                            &:hover {
+                                color: $color2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    #obras_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        #obras {
+            width: 90%;
+            .titulo {
+                font-size: $title-web;
+                font-family: $font-4;
+                color: $color2;
+                width: 100%;
+                padding-top: 15px;
+            }
+            .selector_obras {
+                height: 1000px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                grid-template-columns: repeat(1, 1fr);
+                margin: 50px 0 50px 0;
+                .obra_1 {                
+                    height: 95%;
+                    width: 90%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_1_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .obra_2 {
+                    height: 95%;
+                    width: 90%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_2_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .obras_finalizadas {
+                .titulo_finalizadas {
+                    color: $color2;
+                    font-family: $font-4;
+                    font-size: $title-web;
+                    padding-top: 20px;
+                }
+            }
+            .obras_destacadas_container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                place-items: center;
+                padding: 20px 0 20px 0;
+                margin: 30px 0 30px 0;
+                .obras_destacadas {
+                    border-radius: 10px;
+                    background-color: $color3;
+                    width: 300px;
+                    height: 400px;
+                    padding: 20px;
+                    .obras_destacadas_titulo {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 3em;
+                        text-align: center;                    
+                    }
+                    .obras_destacadas_desc {
+                        color: $color1;
+                        font-family: $font-1;
+                        height: 80px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .obras_destacadas_datos {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 1em;
+                    }
+                    a {
+                        text-decoration: none;
+                        h1 {
+                            color: $color1;
+                            font-size: 2em;
+                            font-family: $font-4;
+                            height: 75px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: .5s;
+                            &:hover {
+                                color: $color2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1190px) {
+    #obras_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        #obras {
+            width: 90%;
+            .titulo {
+                font-size: $title-web;
+                font-family: $font-4;
+                color: $color2;
+                width: 100%;
+                padding-top: 15px;
+            }
+            .selector_obras {
+                height: 1000px;
+                width: 100%;
+                display: grid;
+                place-items: center;
+                grid-template-columns: repeat(1, 1fr);
+                margin: 50px 0 50px 0;
+                .obra_1 {                
+                    height: 95%;
+                    width: 90%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_1_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .obra_2 {
+                    height: 95%;
+                    width: 90%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_2_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .obras_finalizadas {
+                .titulo_finalizadas {
+                    color: $color2;
+                    font-family: $font-4;
+                    font-size: $title-web;
+                    padding-top: 20px;
+                }
+            }
+            .obras_destacadas_container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 20px;
+                place-items: center;
+                padding: 20px 0 20px 0;
+                margin: 30px 0 30px 0;
+                .obras_destacadas {
+                    border-radius: 10px;
+                    background-color: $color3;
+                    width: 300px;
+                    height: 400px;
+                    padding: 20px;
+                    .obras_destacadas_titulo {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 3em;
+                        text-align: center;                    
+                    }
+                    .obras_destacadas_desc {
+                        color: $color1;
+                        font-family: $font-1;
+                        height: 80px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .obras_destacadas_datos {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 1em;
+                    }
+                    a {
+                        text-decoration: none;
+                        h1 {
+                            color: $color1;
+                            font-size: 2em;
+                            font-family: $font-4;
+                            height: 75px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: .5s;
+                            &:hover {
+                                color: $color2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #obras_content {
+        padding-top: $top-web;
+        padding-bottom: $bottom;
+        width: 100%;    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        #obras {
+            width: 90%;
+            .titulo {
+                font-size: $title-web;
+                font-family: $font-4;
+                color: $color2;
+                width: 100%;
+                padding-top: 15px;
+            }
+            .selector_obras {
+                height: 500px;
+                width: 100%;            
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                margin: 50px 0 50px 0;
+                .obra_1 {                
+                    height: 90%;
+                    width: 45%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_1_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .obra_2 {
+                    height: 90%;
+                    width: 45%;
+                    background-image: url(assets/img1.jpeg);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-start;
+                    border-radius: 10px;
+                    .obra_2_link {
+                        background-color: $color1;
+                        width: 100%;
+                        padding: 15px;
+                        opacity: .9;
+                        border-radius: 0 0 10px 10px;
+                        transition: .5s;
+                        &:hover {
+                            background-color: $color2;
+                            color: $color1;
+                            opacity: 1;
+                        }
+                        h3 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 2em;
+                            line-height: 1;
+                        }
+                        h1 {
+                            color: $color3;
+                            font-family: $font-4;
+                            font-size: 4em;
+                            line-height: 1;
+                        }
+                        a {
+                            text-decoration: none;
+                            h2 {
+                                color: $color3;
+                                font-family: $font-4;
+                                font-size: 2em;
+                                line-height: 1;
+                                transition: .5s;
+                                &:hover {
+                                    color: $color1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .obras_finalizadas {
+                .titulo_finalizadas {
+                    color: $color2;
+                    font-family: $font-4;
+                    font-size: $title-web;
+                    padding-top: 20px;
+                }
+            }
+            .obras_destacadas_container {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 20px;
+                place-items: center;
+                padding: 20px 0 20px 0;
+                margin: 30px 0 30px 0;
+                .obras_destacadas {
+                    border-radius: 10px;
+                    background-color: $color3;
+                    width: 300px;
+                    height: 400px;
+                    padding: 20px;
+                    .obras_destacadas_titulo {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 3em;
+                        text-align: center;                    
+                    }
+                    .obras_destacadas_desc {
+                        color: $color1;
+                        font-family: $font-1;
+                        height: 80px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .obras_destacadas_datos {
+                        color: $color1;
+                        font-family: $font-4;
+                        font-size: 1em;
+                    }
+                    a {
+                        text-decoration: none;
+                        h1 {
+                            color: $color1;
+                            font-size: 2em;
+                            font-family: $font-4;
+                            height: 75px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            transition: .5s;
+                            &:hover {
+                                color: $color2;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

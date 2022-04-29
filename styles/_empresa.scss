@@ -1,0 +1,91 @@
+//VARIABLES
+//COLORS
+$color1: #3d3d3d;
+$color2: #F2922E;
+$color3: #E0E0E0;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap');
+$font-1: 'Archivo', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
+$font-2: 'Work Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+$font-3: 'Source Code Pro', monospace;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+$font-4: 'Bebas Neue', cursive;
+
+//FONT SIZES
+
+$title-web: 4em;
+$title-mobile: 2em;
+$text-web: 1.2em;
+$text-mobile: .8em;
+
+//PADDING
+
+$bottom: 70px;
+$top-web: 140px;
+$top-mobile: 75px;
+//STYLES
+
+#empresa-content {
+    padding-top: $top-web;
+    padding-bottom: $bottom;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .titulo {
+        width: 80%;        
+        margin-top: 15px;
+        h1 {
+            text-transform: uppercase;
+            color: $color2;
+            font-family: $font-4;
+            font-size: $title-web;
+        }
+        p {
+            color: $color3;
+            font-family: $font-3;
+            font-size: $text-web;
+        }
+    }
+
+    .mision {
+        width: 80%;        
+        margin-top: 15px;
+        h1 {
+            text-transform: uppercase;
+            color: $color2;
+            font-family: $font-4;
+            font-size: $title-web;
+        }
+        p {
+            color: $color3;
+            font-family: $font-3;
+            font-size: $text-web;
+        }
+    }
+
+    .valores {
+        width: 80%;        
+        margin-top: 15px;
+        h1 {
+            text-transform: uppercase;
+            color: $color2;
+            font-family: $font-4;
+            font-size: $title-web;
+        }
+        ul {
+            padding-left: 30px;
+            li {
+                color: $color3;
+                font-family: $font-3;
+                font-size: $text-web;
+            }
+        }
+    }
+}

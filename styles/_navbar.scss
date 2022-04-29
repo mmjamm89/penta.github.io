@@ -1,0 +1,81 @@
+//VARIABLES
+//COLORS
+$color1: #3d3d3d;
+$color2: #F2922E;
+$color3: #E0E0E0;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap');
+$font-1: 'Archivo', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
+$font-2: 'Work Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+$font-3: 'Source Code Pro', monospace;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+$font-4: 'Bebas Neue', cursive;
+
+//FONT SIZES
+
+$title-web: 4em;
+$title-mobile: 2em;
+$text-web: 1.2em;
+$text-mobile: .8em;
+
+//PADDING
+
+$bottom: 70px;
+$top-web: 140px;
+$top-mobile: 75px;
+//STYLES
+
+#nav_container{
+    width: 100vw;    
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: $color3;
+    z-index: 9;        
+    #navbar {
+        height: 100%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        svg{
+            padding: 0 20px 0 20px;
+            width: 200px;
+            transition: .1s;
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+        .navbar{
+            width: 40%;
+            .nav_links{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                li{
+                    list-style: none;
+                    a{
+                        text-transform: uppercase;
+                        font-family: $font-4;
+                        font-size: 1.5em;
+                        color: $color1;
+                        text-decoration: none;
+                        transition: .1s;
+                        &:hover{
+                            color: $color2;
+                            font-size: 5em;
+                        }                    
+                    }
+                }
+            }
+        }
+    }
+}
