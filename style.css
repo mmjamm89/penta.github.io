@@ -331,6 +331,79 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  #nav_container {
+    width: 100vw;
+    min-height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: fixed;
+    background-color: #E0E0E0;
+    z-index: 9;
+  }
+  #nav_container #navbar {
+    height: 100%;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #nav_container #navbar svg {
+    display: none;
+    width: 200px;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  #nav_container #navbar svg:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  #nav_container #navbar .navbar {
+    width: 80%;
+  }
+  #nav_container #navbar .navbar .nav_links {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #nav_container #navbar .navbar .nav_links li {
+    list-style: none;
+  }
+  #nav_container #navbar .navbar .nav_links li a {
+    text-transform: uppercase;
+    font-family: "Bebas Neue", cursive;
+    font-size: 1em;
+    color: #3d3d3d;
+    text-decoration: none;
+    -webkit-transition: .1s;
+    transition: .1s;
+  }
+  #nav_container #navbar .navbar .nav_links li a:hover {
+    color: #F2922E;
+    font-size: 3em;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -1055,9 +1128,21 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
 }
 
-#contacto_content .contacto_boxes .mapa h1 {
-  color: #3d3d3d;
-  font-family: "Bebas Neue", cursive;
+#contacto_content .contacto_boxes .mapa .mapouter {
+  width: 100%;
+  height: 100%;
+}
+
+#contacto_content .contacto_boxes .mapa .gmap_canvas {
+  border-radius: 10px 0 0 10px;
+  height: 100%;
+  width: 100%;
+}
+
+#contacto_content .contacto_boxes .mapa .gmap_canvas iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px 0 0 10px;
 }
 
 #contacto_content .contacto_boxes .datos_contacto {
@@ -1079,6 +1164,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-left: 10px;
 }
 
 #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
@@ -1249,7 +1335,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 15px;
   }
   #contacto_content .contacto_boxes {
-    width: 70%;
+    width: 80%;
     height: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1355,7 +1441,7 @@ body::-webkit-scrollbar-thumb {
     padding-top: 15px;
   }
   #contacto_content .contacto_boxes {
-    width: 70%;
+    width: 90%;
     height: 80%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1486,10 +1572,6 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-  }
-  #contacto_content .contacto_boxes .mapa h1 {
-    color: #3d3d3d;
-    font-family: "Bebas Neue", cursive;
   }
   #contacto_content .contacto_boxes .datos_contacto {
     width: 100%;
@@ -1708,7 +1790,7 @@ body::-webkit-scrollbar-thumb {
     height: 100%;
     font-family: "Bebas Neue", cursive;
     color: #3d3d3d;
-    font-size: 1em;
+    font-size: .8em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1726,7 +1808,7 @@ body::-webkit-scrollbar-thumb {
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
     color: #3d3d3d;
     margin-right: 25px;
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a #facebook {
     -webkit-transition: .2s;
