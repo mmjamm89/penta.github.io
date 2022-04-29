@@ -841,7 +841,7 @@ body::-webkit-scrollbar-thumb {
   #page-container #content-wrapper {
     padding-top: 80px;
     padding-bottom: 70px;
-    height: 600px;
+    height: 750px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -867,7 +867,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 50px 0 50px 0;
+    margin: 20px 0 0 0;
     width: 90%;
   }
   #page-container #content-wrapper .logo_home svg {
