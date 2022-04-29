@@ -58,7 +58,7 @@
 
 #nav_container #navbar svg {
   padding: 0 20px 0 20px;
-  width: 200px;
+  width: 250px;
   -webkit-transition: .1s;
   transition: .1s;
 }
@@ -116,6 +116,18 @@ body {
   padding: 0;
   background-color: #3d3d3d;
   overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #3d3d3d;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #E0E0E0;
 }
 
 #page-container {
