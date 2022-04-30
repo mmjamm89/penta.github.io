@@ -6,9 +6,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
@@ -17,14 +33,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap");
 #nav_container {
   width: 100vw;
   min-height: 140px;
@@ -473,7 +482,7 @@ body::-webkit-scrollbar-thumb {
 
 #page-container #content-wrapper #presentacion .presentacion_texto h1 {
   color: #3d3d3d;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Big Shoulders Text", cursive;
   text-transform: uppercase;
   font-size: 6em;
 }
@@ -569,7 +578,6 @@ body::-webkit-scrollbar-thumb {
             align-items: center;
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
-    font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 4em;
   }
@@ -662,7 +670,6 @@ body::-webkit-scrollbar-thumb {
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
     color: #3d3d3d;
-    font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 4em;
   }
@@ -755,7 +762,6 @@ body::-webkit-scrollbar-thumb {
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
     color: #3d3d3d;
-    font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 3em;
   }
@@ -848,7 +854,6 @@ body::-webkit-scrollbar-thumb {
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
     color: #3d3d3d;
-    font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 2.8em;
   }
@@ -960,7 +965,6 @@ body::-webkit-scrollbar-thumb {
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
     color: #3d3d3d;
-    font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 2em;
     text-align: center;
@@ -2122,7 +2126,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -2338,7 +2341,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -2554,7 +2556,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -2771,7 +2772,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -2988,7 +2988,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -3474,7 +3473,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -3690,7 +3688,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -3906,7 +3903,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -4123,7 +4119,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -4340,7 +4335,6 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .titulo {
     font-size: 4em;
-    font-family: "Bebas Neue", cursive;
     color: #F2922E;
     width: 100%;
     padding-top: 15px;
@@ -4719,6 +4713,133 @@ body::-webkit-scrollbar-thumb {
   }
   #empresa-content .valores ul li {
     font-size: 1.2em;
+  }
+}
+
+#sense_content {
+  padding-top: 140px;
+  padding-bottom: 70px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#sense_content #sense {
+  width: 80%;
+}
+
+#sense_content #sense .titulo {
+  font-size: 4em;
+  font-family: "Bebas Neue", cursive;
+  color: #F2922E;
+  width: 100%;
+  padding-top: 15px;
+}
+
+#sense_content #sense .slider_container {
+  border: 4px solid #3d3d3d;
+  border-bottom: none;
+  width: 100%;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Big Shoulders Text", cursive;
+  font-size: 6em;
+  color: #3d3d3d;
+}
+
+#sense_content #sense .slider_container #img_container {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sense_content #sense .datos_container {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#sense_content #sense .datos_container .datos_box {
+  border: 4px solid #3d3d3d;
+  width: 25%;
+  height: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Archivo", sans-serif;
+}
+
+#sense_content #sense .datos_container #datos_1 {
+  border-right: none;
+}
+
+#sense_content #sense .datos_container #datos_2 {
+  border-right: none;
+}
+
+#sense_content #sense .datos_container #datos_3 {
+  border-right: none;
+}
+
+#sense_content #sense .descripcion_sense {
+  width: 100%;
+  font-family: "Archivo", sans-serif;
+  color: #3d3d3d;
+}
+
+#sense_content #sense .descripcion_sense p {
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  #sense_content #sense {
+    width: 90%;
+  }
+  #sense_content #sense .slider_container #img_container {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #sense_content {
+    padding-top: 80px;
   }
 }
 /*# sourceMappingURL=style.css.map */

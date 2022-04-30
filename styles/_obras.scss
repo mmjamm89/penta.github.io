@@ -16,6 +16,10 @@ $font-3: 'Source Code Pro', monospace;
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 $font-4: 'Bebas Neue', cursive;
 
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap');
+$font-5: 'Big Shoulders Text', cursive;
+
+
 //FONT SIZES
 
 $title-web: 4em;
@@ -236,7 +240,6 @@ $top-mobile: 80px;
             width: 80%;
             .titulo {
                 font-size: $title-web;
-                font-family: $font-4;
                 color: $color2;
                 width: 100%;
                 padding-top: 15px;
@@ -413,7 +416,6 @@ $top-mobile: 80px;
             width: 80%;
             .titulo {
                 font-size: $title-web;
-                font-family: $font-4;
                 color: $color2;
                 width: 100%;
                 padding-top: 15px;
@@ -590,7 +592,6 @@ $top-mobile: 80px;
             width: 80%;
             .titulo {
                 font-size: $title-web;
-                font-family: $font-4;
                 color: $color2;
                 width: 100%;
                 padding-top: 15px;
@@ -768,7 +769,6 @@ $top-mobile: 80px;
             width: 90%;
             .titulo {
                 font-size: $title-web;
-                font-family: $font-4;
                 color: $color2;
                 width: 100%;
                 padding-top: 15px;
@@ -946,7 +946,6 @@ $top-mobile: 80px;
             width: 90%;
             .titulo {
                 font-size: $title-web;
-                font-family: $font-4;
                 color: $color2;
                 width: 100%;
                 padding-top: 15px;

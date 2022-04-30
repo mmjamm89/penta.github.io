@@ -1,0 +1,175 @@
+//VARIABLES
+//COLORS
+$color1: #3d3d3d;
+$color2: #F2922E;
+$color3: #E0E0E0;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&display=swap');
+$font-1: 'Archivo', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300&display=swap');
+$font-2: 'Work Sans', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+$font-3: 'Source Code Pro', monospace;
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+$font-4: 'Bebas Neue', cursive;
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&display=swap');
+$font-5: 'Big Shoulders Text', cursive;
+
+//FONT SIZES
+
+$title-web: 4em;
+$title-mobile: 2em;
+$text-web: 1.2em;
+$text-mobile: .8em;
+
+//PADDING
+
+$bottom: 70px;
+$top-web: 140px;
+$top-mobile: 80px;
+//STYLES
+
+#sense_content {
+    padding-top: $top-web;
+    padding-bottom: $bottom;
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    #sense {
+        width: 80%;
+        .titulo {
+            font-size: $title-web;
+            font-family: $font-4;
+            color: $color2;
+            width: 100%;
+            padding-top: 15px;
+        }
+        .slider_container {
+            border: 4px solid $color1;
+            border-bottom: none;
+            width: 100%;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: $font-5;
+            font-size: 6em;
+            color: $color1;
+            #img_container {
+                width: 50%;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                }
+            }
+        }
+        .datos_container {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            .datos_box {
+                border: 4px solid $color1;
+                width: 25%;
+                height: 100%;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: $font-1;
+            }
+            #datos_1{
+                border-right: none;
+            }
+            #datos_2{
+                border-right: none;
+            }
+            #datos_3{
+                border-right: none;
+            }
+            #datos_4{
+                
+            }            
+        }
+        .descripcion_sense {            
+            width: 100%;            
+            font-family: $font-1;
+            color: $color1;
+            p{
+                padding-top: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #sense_content {        
+        #sense {    
+            width: 90%;        
+            .titulo {                
+            }
+            .slider_container {
+                #img_container {
+                    height: 100%;
+                    width: 100%;                    
+                    img{
+
+                    }
+                }              
+
+            }
+            .datos_container {                
+                .datos_box {                    
+                }
+                #datos_1{                    
+                }
+                #datos_2{                    
+                }
+                #datos_3{                    
+                }
+                #datos_4{                    
+                }            
+            }
+            .descripcion_sense {
+                p{
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #sense_content {
+        padding-top: $top-mobile;
+        #sense {
+            .titulo {                
+            }
+            .slider_container {                
+            }
+            .datos_container {                
+                .datos_box {                    
+                }
+                #datos_1{                    
+                }
+                #datos_2{                    
+                }
+                #datos_3{                    
+                }
+                #datos_4{                    
+                }            
+            }
+            .descripcion_sense {
+                p{
+                }
+            }
+        }
+    }
+}
