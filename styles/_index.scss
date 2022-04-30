@@ -39,7 +39,7 @@ $top-mobile: 80px;
 body {
     margin: 0;
     padding: 0;
-    background-color: $color1;
+    background-color: $color3;
     overflow-x: hidden;
     &::-webkit-scrollbar {
         width: 10px;
@@ -50,8 +50,7 @@ body {
     }
      
     &::-webkit-scrollbar-thumb {        
-        background-color: $color3;
-        border-radius: 4px;
+        background-color: $color2;
     }
 }
 
@@ -77,7 +76,7 @@ body {
             align-items: center;
             .presentacion_texto {
                 h1 {
-                    color: $color2;
+                    color: $color1;
                     font-family: $font-4;
                     text-transform: uppercase;
                     font-size: 6em;
@@ -139,7 +138,6 @@ body {
                 align-items: center;
                 .presentacion_texto {
                     h1 {
-                        color: $color2;
                         font-family: $font-4;
                         text-transform: uppercase;
                         font-size: 4em;
@@ -202,7 +200,7 @@ body {
                 align-items: center;
                 .presentacion_texto {
                     h1 {
-                        color: $color2;
+                        color: $color1;
                         font-family: $font-4;
                         text-transform: uppercase;
                         font-size: 4em;
@@ -265,7 +263,7 @@ body {
                 align-items: center;
                 .presentacion_texto {
                     h1 {
-                        color: $color2;
+                        color: $color1;
                         font-family: $font-4;
                         text-transform: uppercase;
                         font-size: 3em;
@@ -328,7 +326,7 @@ body {
                 align-items: center;
                 .presentacion_texto {
                     h1 {
-                        color: $color2;
+                        color: $color1;
                         font-family: $font-4;
                         text-transform: uppercase;
                         font-size: 2.8em;
@@ -403,7 +401,7 @@ body {
                 justify-content: center;
                 .presentacion_texto {
                     h1 {
-                        color: $color2;
+                        color: $color1;
                         font-family: $font-4;
                         text-transform: uppercase;
                         font-size: 2em;

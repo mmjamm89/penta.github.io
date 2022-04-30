@@ -167,10 +167,12 @@ $top-mobile: 80px;
         }
         .obras_destacadas_container {
             display: grid;
+            background-color: $color1;
+            border-radius: 10px;
             grid-template-columns: repeat(3, 1fr);
             place-items: center;
-            padding: 20px 0 20px 0;
-            margin: 10px 0 30px 0;
+            padding: 40px 0 40px 0;
+            margin: 10px 0 30px 0;                                    
             .obras_destacadas {
                 border-radius: 10px;
                 background-color: $color3;
@@ -357,18 +359,15 @@ $top-mobile: 80px;
                 margin: 30px 0 30px 0;
                 .obras_destacadas {
                     border-radius: 10px;
-                    background-color: $color3;
                     width: 300px;
                     height: 400px;
                     padding: 20px;
                     .obras_destacadas_titulo {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 3em;
                         text-align: center;                    
                     }
                     .obras_destacadas_desc {
-                        color: $color1;
                         font-family: $font-1;
                         height: 80px;
                         display: flex;
@@ -376,7 +375,6 @@ $top-mobile: 80px;
                         justify-content: center;
                     }
                     .obras_destacadas_datos {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 1em;
                     }
@@ -538,18 +536,15 @@ $top-mobile: 80px;
                 margin: 30px 0 30px 0;
                 .obras_destacadas {
                     border-radius: 10px;
-                    background-color: $color3;
                     width: 300px;
                     height: 400px;
                     padding: 20px;
                     .obras_destacadas_titulo {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 3em;
                         text-align: center;                    
                     }
                     .obras_destacadas_desc {
-                        color: $color1;
                         font-family: $font-1;
                         height: 80px;
                         display: flex;
@@ -557,7 +552,6 @@ $top-mobile: 80px;
                         justify-content: center;
                     }
                     .obras_destacadas_datos {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 1em;
                     }
@@ -720,18 +714,15 @@ $top-mobile: 80px;
                 margin: 30px 0 30px 0;
                 .obras_destacadas {
                     border-radius: 10px;
-                    background-color: $color3;
                     width: 300px;
                     height: 400px;
                     padding: 20px;
                     .obras_destacadas_titulo {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 3em;
                         text-align: center;                    
                     }
                     .obras_destacadas_desc {
-                        color: $color1;
                         font-family: $font-1;
                         height: 80px;
                         display: flex;
@@ -739,7 +730,6 @@ $top-mobile: 80px;
                         justify-content: center;
                     }
                     .obras_destacadas_datos {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 1em;
                     }
@@ -902,18 +892,15 @@ $top-mobile: 80px;
                 margin: 30px 0 30px 0;
                 .obras_destacadas {
                     border-radius: 10px;
-                    background-color: $color3;
                     width: 300px;
                     height: 400px;
                     padding: 20px;
                     .obras_destacadas_titulo {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 3em;
                         text-align: center;                    
                     }
                     .obras_destacadas_desc {
-                        color: $color1;
                         font-family: $font-1;
                         height: 80px;
                         display: flex;
@@ -921,7 +908,6 @@ $top-mobile: 80px;
                         justify-content: center;
                     }
                     .obras_destacadas_datos {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 1em;
                     }
@@ -1084,18 +1070,15 @@ $top-mobile: 80px;
                 margin: 30px 0 30px 0;
                 .obras_destacadas {
                     border-radius: 10px;
-                    background-color: $color3;
                     width: 300px;
                     height: 400px;
                     padding: 20px;
                     .obras_destacadas_titulo {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 3em;
                         text-align: center;                    
                     }
                     .obras_destacadas_desc {
-                        color: $color1;
                         font-family: $font-1;
                         height: 80px;
                         display: flex;
@@ -1103,7 +1086,6 @@ $top-mobile: 80px;
                         justify-content: center;
                     }
                     .obras_destacadas_datos {
-                        color: $color1;
                         font-family: $font-4;
                         font-size: 1em;
                     }

@@ -38,7 +38,9 @@ $top-mobile: 75px;
     justify-content: center;
     position: fixed;
     background-color: $color3;
-    z-index: 9;        
+    z-index: 9;
+    border-bottom: 1px solid $color1;
+  
     #navbar {
         height: 100%;
         width: 80%;

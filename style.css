@@ -40,6 +40,7 @@
   position: fixed;
   background-color: #E0E0E0;
   z-index: 9;
+  border-bottom: 1px solid #3d3d3d;
 }
 
 #nav_container #navbar {
@@ -414,7 +415,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #3d3d3d;
+  background-color: #E0E0E0;
   overflow-x: hidden;
 }
 
@@ -427,8 +428,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #E0E0E0;
-  border-radius: 4px;
+  background-color: #F2922E;
 }
 
 #page-container {
@@ -472,7 +472,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #page-container #content-wrapper #presentacion .presentacion_texto h1 {
-  color: #F2922E;
+  color: #3d3d3d;
   font-family: "Bebas Neue", cursive;
   text-transform: uppercase;
   font-size: 6em;
@@ -569,7 +569,6 @@ body::-webkit-scrollbar-thumb {
             align-items: center;
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
-    color: #F2922E;
     font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 4em;
@@ -662,7 +661,7 @@ body::-webkit-scrollbar-thumb {
             align-items: center;
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
-    color: #F2922E;
+    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 4em;
@@ -755,7 +754,7 @@ body::-webkit-scrollbar-thumb {
             align-items: center;
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
-    color: #F2922E;
+    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 3em;
@@ -848,7 +847,7 @@ body::-webkit-scrollbar-thumb {
             align-items: center;
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
-    color: #F2922E;
+    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 2.8em;
@@ -960,7 +959,7 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #page-container #content-wrapper #presentacion .presentacion_texto h1 {
-    color: #F2922E;
+    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     text-transform: uppercase;
     font-size: 2em;
@@ -1020,7 +1019,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #footer {
-  background-color: #3d3d3d;
+  background-color: #E0E0E0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1038,15 +1037,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 #footer p {
-  font-family: "Source Code Pro", monospace;
-  color: #E0E0E0;
+  font-family: "Work Sans", sans-serif;
+  color: black;
   font-size: 0.9em;
   text-align: center;
 }
 
 @media screen and (max-width: 700px) {
   #footer {
-    background-color: #3d3d3d;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1063,8 +1061,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 8;
   }
   #footer p {
-    font-family: "Source Code Pro", monospace;
-    color: #E0E0E0;
+    font-family: "Work Sans", sans-serif;
     font-size: 0.6em;
     text-align: center;
   }
@@ -1110,7 +1107,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #E0E0E0;
+  background-color: #3d3d3d;
   border-radius: 10px;
 }
 
@@ -1149,8 +1146,8 @@ body::-webkit-scrollbar-thumb {
   width: 50%;
   height: 100%;
   font-family: "Bebas Neue", cursive;
-  color: #3d3d3d;
-  font-size: 1.5em;
+  color: #E0E0E0;
+  font-size: 1.2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1165,10 +1162,11 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: center;
           justify-content: center;
   padding-left: 10px;
+  letter-spacing: 1.5px;
 }
 
 #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
-  color: #3d3d3d;
+  color: #E0E0E0;
   margin-right: 25px;
   font-size: 1.5em;
 }
@@ -1239,8 +1237,6 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #E0E0E0;
-    border-radius: 10px;
   }
   #contacto_content .contacto_boxes .mapa {
     width: 50%;
@@ -1263,8 +1259,8 @@ body::-webkit-scrollbar-thumb {
     width: 50%;
     height: 100%;
     font-family: "Bebas Neue", cursive;
-    color: #3d3d3d;
-    font-size: 1em;
+    color: #E0E0E0;
+    font-size: .8em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1278,9 +1274,10 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 20px;
   }
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
-    color: #3d3d3d;
+    color: #E0E0E0;
     margin-right: 25px;
     font-size: 1.5em;
   }
@@ -1346,7 +1343,6 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #E0E0E0;
     border-radius: 10px;
     padding: 20px;
   }
@@ -1369,7 +1365,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 100%;
     font-family: "Bebas Neue", cursive;
-    color: #3d3d3d;
+    color: #E0E0E0;
     font-size: 1.3em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1386,7 +1382,7 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
-    color: #3d3d3d;
+    color: #E0E0E0;
     margin-right: 25px;
     font-size: 1.5em;
   }
@@ -1452,7 +1448,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #E0E0E0;
+    background-color: #3d3d3d;
     border-radius: 10px;
     padding: 20px;
   }
@@ -1475,7 +1471,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 100%;
     font-family: "Bebas Neue", cursive;
-    color: #3d3d3d;
+    color: #E0E0E0;
     font-size: 1.3em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1492,7 +1488,7 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
-    color: #3d3d3d;
+    color: #E0E0E0;
     margin-right: 25px;
     font-size: 1.5em;
   }
@@ -1558,7 +1554,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #E0E0E0;
+    background-color: #3d3d3d;
     border-radius: 10px;
     padding: 20px;
   }
@@ -1577,7 +1573,7 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     height: 100%;
     font-family: "Bebas Neue", cursive;
-    color: #3d3d3d;
+    color: #E0E0E0;
     font-size: 1.3em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1594,7 +1590,7 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
-    color: #3d3d3d;
+    color: #E0E0E0;
     margin-right: 25px;
     font-size: 1.5em;
   }
@@ -1660,7 +1656,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #E0E0E0;
+    background-color: #3d3d3d;
     border-radius: 10px;
     padding: 20px;
   }
@@ -1676,15 +1672,15 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #contacto_content .contacto_boxes .mapa h1 {
-    color: #3d3d3d;
+    color: #E0E0E0;
     font-family: "Bebas Neue", cursive;
   }
   #contacto_content .contacto_boxes .datos_contacto {
     width: 100%;
     height: 100%;
     font-family: "Bebas Neue", cursive;
-    color: #3d3d3d;
-    font-size: 1.3em;
+    color: #E0E0E0;
+    font-size: 1.1em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1700,7 +1696,7 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
-    color: #3d3d3d;
+    color: #E0E0E0;
     margin-right: 25px;
     font-size: 1.5em;
   }
@@ -1766,9 +1762,9 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background-color: #E0E0E0;
+    background-color: #3d3d3d;
     border-radius: 10px;
-    padding: 20px;
+    padding: 5px;
   }
   #contacto_content .contacto_boxes .mapa {
     width: 50%;
@@ -1782,14 +1778,14 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #contacto_content .contacto_boxes .mapa h1 {
-    color: #3d3d3d;
+    color: #E0E0E0;
     font-family: "Bebas Neue", cursive;
   }
   #contacto_content .contacto_boxes .datos_contacto {
     width: 100%;
     height: 100%;
     font-family: "Bebas Neue", cursive;
-    color: #3d3d3d;
+    color: #E0E0E0;
     font-size: .8em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1804,9 +1800,10 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    letter-spacing: 1px;
   }
   #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
-    color: #3d3d3d;
+    color: #E0E0E0;
     margin-right: 25px;
     font-size: 1.2em;
   }
@@ -2024,10 +2021,12 @@ body::-webkit-scrollbar-thumb {
 #obras_content #obras .obras_destacadas_container {
   display: -ms-grid;
   display: grid;
+  background-color: #3d3d3d;
+  border-radius: 10px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   place-items: center;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
   margin: 10px 0 30px 0;
 }
 
@@ -2265,19 +2264,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -2291,7 +2287,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -2485,19 +2480,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -2511,7 +2503,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -2706,19 +2697,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -2732,7 +2720,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -2927,19 +2914,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -2953,7 +2937,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -3148,19 +3131,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -3174,7 +3154,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -3394,10 +3373,12 @@ body::-webkit-scrollbar-thumb {
 #obras_content #obras .obras_destacadas_container {
   display: -ms-grid;
   display: grid;
+  background-color: #3d3d3d;
+  border-radius: 10px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   place-items: center;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
   margin: 10px 0 30px 0;
 }
 
@@ -3635,19 +3616,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -3661,7 +3639,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -3855,19 +3832,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -3881,7 +3855,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -4076,19 +4049,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -4102,7 +4072,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -4297,19 +4266,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -4323,7 +4289,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -4518,19 +4483,16 @@ body::-webkit-scrollbar-thumb {
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas {
     border-radius: 10px;
-    background-color: #E0E0E0;
     width: 300px;
     height: 400px;
     padding: 20px;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_titulo {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 3em;
     text-align: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_desc {
-    color: #3d3d3d;
     font-family: "Archivo", sans-serif;
     height: 80px;
     display: -webkit-box;
@@ -4544,7 +4506,6 @@ body::-webkit-scrollbar-thumb {
             justify-content: center;
   }
   #obras_content #obras .obras_destacadas_container .obras_destacadas .obras_destacadas_datos {
-    color: #3d3d3d;
     font-family: "Bebas Neue", cursive;
     font-size: 1em;
   }
@@ -4604,8 +4565,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 #empresa-content .titulo p {
-  color: #E0E0E0;
-  font-family: "Source Code Pro", monospace;
+  color: #3d3d3d;
+  font-family: "Bebas Neue", cursive;
   font-size: 1.2em;
 }
 
@@ -4622,8 +4583,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 #empresa-content .mision p {
-  color: #E0E0E0;
-  font-family: "Source Code Pro", monospace;
+  color: #3d3d3d;
+  font-family: "Bebas Neue", cursive;
   font-size: 1.2em;
 }
 
@@ -4644,8 +4605,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 #empresa-content .valores ul li {
-  color: #E0E0E0;
-  font-family: "Source Code Pro", monospace;
+  color: #3d3d3d;
+  font-family: "Bebas Neue", cursive;
   font-size: 1.2em;
 }
 
@@ -4673,13 +4634,9 @@ body::-webkit-scrollbar-thumb {
   }
   #empresa-content .titulo h1 {
     text-transform: uppercase;
-    color: #F2922E;
-    font-family: "Bebas Neue", cursive;
     font-size: 4em;
   }
   #empresa-content .titulo p {
-    color: #E0E0E0;
-    font-family: "Source Code Pro", monospace;
     font-size: 1.2em;
   }
   #empresa-content .mision {
@@ -4688,13 +4645,9 @@ body::-webkit-scrollbar-thumb {
   }
   #empresa-content .mision h1 {
     text-transform: uppercase;
-    color: #F2922E;
-    font-family: "Bebas Neue", cursive;
     font-size: 4em;
   }
   #empresa-content .mision p {
-    color: #E0E0E0;
-    font-family: "Source Code Pro", monospace;
     font-size: 1.2em;
   }
   #empresa-content .valores {
@@ -4703,16 +4656,12 @@ body::-webkit-scrollbar-thumb {
   }
   #empresa-content .valores h1 {
     text-transform: uppercase;
-    color: #F2922E;
-    font-family: "Bebas Neue", cursive;
     font-size: 4em;
   }
   #empresa-content .valores ul {
     padding-left: 30px;
   }
   #empresa-content .valores ul li {
-    color: #E0E0E0;
-    font-family: "Source Code Pro", monospace;
     font-size: 1.2em;
   }
 }
@@ -4741,13 +4690,9 @@ body::-webkit-scrollbar-thumb {
   }
   #empresa-content .titulo h1 {
     text-transform: uppercase;
-    color: #F2922E;
-    font-family: "Bebas Neue", cursive;
     font-size: 4em;
   }
   #empresa-content .titulo p {
-    color: #E0E0E0;
-    font-family: "Source Code Pro", monospace;
     font-size: 1.2em;
   }
   #empresa-content .mision {
@@ -4756,13 +4701,9 @@ body::-webkit-scrollbar-thumb {
   }
   #empresa-content .mision h1 {
     text-transform: uppercase;
-    color: #F2922E;
-    font-family: "Bebas Neue", cursive;
     font-size: 4em;
   }
   #empresa-content .mision p {
-    color: #E0E0E0;
-    font-family: "Source Code Pro", monospace;
     font-size: 1.2em;
   }
   #empresa-content .valores {
@@ -4771,16 +4712,12 @@ body::-webkit-scrollbar-thumb {
   }
   #empresa-content .valores h1 {
     text-transform: uppercase;
-    color: #F2922E;
-    font-family: "Bebas Neue", cursive;
     font-size: 4em;
   }
   #empresa-content .valores ul {
     padding-left: 30px;
   }
   #empresa-content .valores ul li {
-    color: #E0E0E0;
-    font-family: "Source Code Pro", monospace;
     font-size: 1.2em;
   }
 }
