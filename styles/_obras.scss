@@ -960,11 +960,12 @@ $top-mobile: 80px;
                 .obra_1 {                
                     height: 95%;
                     width: 90%;
-                    background-image: url(assets/img1.jpeg);
+                    background-image: url(assets/img1.jpeg);                    
                     display: flex;
                     align-items: flex-end;
                     justify-content: flex-start;
                     border-radius: 10px;
+                    background-position: center;
                     .obra_1_link {
                         background-color: $color1;
                         width: 100%;
@@ -1008,6 +1009,7 @@ $top-mobile: 80px;
                     height: 95%;
                     width: 90%;
                     background-image: url(assets/img1.jpeg);
+                    background-position: center;
                     display: flex;
                     align-items: flex-end;
                     justify-content: flex-start;
