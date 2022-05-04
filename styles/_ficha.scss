@@ -64,31 +64,7 @@ $top-mobile: 80px;
             img {
                                 
             }
-        }
-        .slider_container {
-            border-bottom: none;
-            width: 100%;
-            height: 350px;
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            gap: 6px;
-            font-family: $font-5;
-            font-size: 6em;
-            color: $color1;
-            #img_container {
-                border: 2px solid $color1;
-                width: 100%;
-                height: 100%;
-                overflow: hidden;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                img {
-                    width: 110%;
-                }
-            }
-        }
+        }        
         .datos_container {
             padding-top: 10px;
             width: 100%;
@@ -121,14 +97,6 @@ $top-mobile: 80px;
                 border-left: none;
             }            
         }
-        .titulo_imagenes {
-            margin-top: 25px;
-            width: 100%;
-            text-align: left;
-            font-size: 3em;
-            font-family: $font-4;
-            color: $color2;
-        }
         .descripcion_sense {
             width: 100%;            
             font-family: $font-1;
@@ -139,6 +107,71 @@ $top-mobile: 80px;
                 text-align: justify;
             }
         }
+        .titulo_imagenes {
+            margin-top: 25px;
+            width: 100%;
+            text-align: left;
+            font-size: 3em;
+            font-family: $font-4;
+            color: $color2;
+        }
+        .gallery_container {
+            border-bottom: none;
+            margin-bottom: 25px;
+            width: 100%;
+            height: 350px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 6px;
+            font-family: $font-5;
+            font-size: 6em;
+            color: $color1;
+            #img_container {
+                border: 2px solid $color1;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 110%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .modal {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.733);
+        margin-top: -1px;
+        animation: zoom .3s ease-in-out;
+        min-height: 800px;
+        img {
+            width: 60%;
+            object-fit: cover;
+            margin-top: 50px;
+        }
+        .closeBtn {
+            color: $color2;
+            font-size: 3em;
+            position: absolute;
+            top: 15%;
+            right: 0;
+            margin: 20px;
+            cursor: pointer;
+            transition: .2s ease-in-out;
+            &:hover {
+                color:rgb(255, 255, 255);
+            }
+        }
     }
 }
 
@@ -147,7 +180,7 @@ $top-mobile: 80px;
         #sense {
             .titulo {
             }
-            .slider_container {
+            .gallery_container {
                 #img_container {
                     img {
                     }
@@ -177,6 +210,36 @@ $top-mobile: 80px;
             }
         }
     }
+    .modal {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.733);
+        margin-top: -1px;
+        animation: zoom .3s ease-in-out;
+        min-height: 900px;
+        img {
+            width: 70%;
+            // object-fit: cover;
+        }
+        .closeBtn {
+            color: $color2;
+            font-size: 4em;
+            position: absolute;
+            top: 15%;
+            right: 0;
+            margin: 20px;
+            cursor: pointer;
+            transition: .2s ease-in-out;
+            &:hover {
+                color:rgb(255, 255, 255);
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 1150px) {
@@ -184,7 +247,7 @@ $top-mobile: 80px;
         #sense {
             .titulo {
             }
-            .slider_container {
+            .gallery_container {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(3, 1fr);
@@ -214,8 +277,18 @@ $top-mobile: 80px;
                 p{
                 }
             }
+            .modal {
+                img {
+                    width: 85%;
+                }
+                .closeBtn {
+                    &:hover {
+                    }
+                }
+            }
         }
     }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -224,7 +297,7 @@ $top-mobile: 80px;
             width: 90%;        
             .titulo {                
             }
-            .slider_container {
+            .gallery_container {
                 #img_container {
                     height: 100%;
                     width: 100%;                    
@@ -259,8 +332,18 @@ $top-mobile: 80px;
                 p{
                 }
             }
+            .modal {
+                img {
+                    width: 90%;
+                }
+                .closeBtn {
+                    &:hover {
+                    }
+                }
+            }
         }
     }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -270,7 +353,7 @@ $top-mobile: 80px;
             .titulo {
                 font-size: 3em;
             }
-            .slider_container {
+            .gallery_container {
             }
             .datos_container {
                 height: 200px;
@@ -297,6 +380,17 @@ $top-mobile: 80px;
             .descripcion_sense {
                 p{
                     font-size: .8em;
+                }
+            }
+        }
+        .modal {
+            img {
+                width: 90%;
+                margin-top: 0;
+            }
+            .closeBtn {   
+                font-size: 2em;         
+                &:hover {
                 }
             }
         }
