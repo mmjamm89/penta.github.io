@@ -59,7 +59,9 @@
         </header>
 
         <!-- CONTENT -->
-        <div id="content-wrapper">
+        <div id="content-wrapper" data-barba="container" namespace="home">
+
+            <div class="transition"></div>
 
             <div class="logo_home">
                 <svg width="200" viewBox="0 0 1049 419" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -109,9 +111,13 @@
         </footer>
 
     </div>
-
-    <script src="https://unpkg.com/@barba/core"></script>
+    
+    <!-- BARBA -->
+    <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
+    <!-- GSAP -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!-- TRANSITIONS -->
+    <script src="barba.js"></script>
 
 
 </body>

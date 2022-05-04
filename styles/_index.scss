@@ -60,12 +60,20 @@ body {
 #page-container {
     position: relative;
     min-height: 100vh;
+    .transition {
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background-color: $color1;
+        z-index: 9;
+        display: none;
+    }
     #content-wrapper {
         padding-top: $top-web;
         padding-bottom: $bottom;
         height: 900px;
         width: 100%;
-        display: flex;
+        display: flex;        
         flex-direction: column;
         justify-content: center;
         align-items: center;
