@@ -4745,6 +4745,19 @@ body::-webkit-scrollbar-thumb {
 
 #sense_content #sense {
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #sense_content #sense .titulo {
@@ -4753,6 +4766,21 @@ body::-webkit-scrollbar-thumb {
   color: #F2922E;
   width: 100%;
   padding-top: 15px;
+}
+
+#sense_content #sense .img_main {
+  height: 350px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
 }
 
 #sense_content #sense .slider_container {
@@ -4792,7 +4820,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #sense_content #sense .datos_container {
-  padding-top: 2px;
+  padding-top: 10px;
   width: 100%;
   height: 100px;
   display: -webkit-box;
@@ -4801,7 +4829,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #sense_content #sense .datos_container .datos_box {
-  border: 2px solid #3d3d3d;
+  border: 4px solid #E0E0E0;
   background-color: #3d3d3d;
   color: #E0E0E0;
   width: 25%;
@@ -4824,15 +4852,29 @@ body::-webkit-scrollbar-thumb {
 }
 
 #sense_content #sense .datos_container #datos_1 {
-  border-right: none;
+  border-left: none;
 }
 
 #sense_content #sense .datos_container #datos_2 {
-  border-right: none;
+  border-left: none;
 }
 
 #sense_content #sense .datos_container #datos_3 {
+  border-left: none;
+}
+
+#sense_content #sense .datos_container #datos_4 {
   border-right: none;
+  border-left: none;
+}
+
+#sense_content #sense .titulo_imagenes {
+  margin-top: 25px;
+  width: 100%;
+  text-align: left;
+  font-size: 3em;
+  font-family: "Bebas Neue", cursive;
+  color: #F2922E;
 }
 
 #sense_content #sense .descripcion_sense {
@@ -4843,6 +4885,8 @@ body::-webkit-scrollbar-thumb {
 
 #sense_content #sense .descripcion_sense p {
   padding-top: 10px;
+  font-size: 1.3em;
+  text-align: justify;
 }
 
 @media screen and (max-width: 1230px) {
@@ -4900,19 +4944,22 @@ body::-webkit-scrollbar-thumb {
         grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
-    gap: 6px;
+    gap: 2px;
   }
   #sense_content #sense .datos_container .datos_box {
     width: 100%;
   }
-  #sense_content #sense .datos_container #datos_1 {
-    border-right: 2px solid #3d3d3d;
-  }
   #sense_content #sense .datos_container #datos_2 {
-    border-right: 2px solid #3d3d3d;
+    border-right: none;
   }
   #sense_content #sense .datos_container #datos_3 {
-    border-right: 2px solid #3d3d3d;
+    border-top: none;
+  }
+  #sense_content #sense .datos_container #datos_4 {
+    border-top: none;
+  }
+  #sense_content #sense .descripcion_sense p {
+    font-size: .8em;
   }
 }
 /*# sourceMappingURL=style.css.map */
