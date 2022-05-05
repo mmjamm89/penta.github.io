@@ -139,7 +139,7 @@
             justify-content: center;
     position: fixed;
     background-color: #E0E0E0;
-    z-index: 9;
+    z-index: 10;
   }
   #nav_container #navbar {
     height: 100%;
@@ -211,7 +211,7 @@
             justify-content: center;
     position: fixed;
     background-color: #E0E0E0;
-    z-index: 9;
+    z-index: 10;
   }
   #nav_container #navbar {
     height: 100%;
@@ -283,7 +283,7 @@
             justify-content: center;
     position: fixed;
     background-color: #E0E0E0;
-    z-index: 9;
+    z-index: 10;
   }
   #nav_container #navbar {
     height: 100%;
@@ -356,7 +356,7 @@
             justify-content: center;
     position: fixed;
     background-color: #E0E0E0;
-    z-index: 9;
+    z-index: 10;
   }
   #nav_container #navbar {
     height: 100%;
@@ -447,11 +447,21 @@ body::-webkit-scrollbar-thumb {
 
 #page-container .transition {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 0vh;
   background-color: #3d3d3d;
   z-index: 9;
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #page-container #content-wrapper {
@@ -557,6 +567,24 @@ body::-webkit-scrollbar-thumb {
     position: relative;
     min-height: 100vh;
   }
+  #page-container .transition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 0vh;
+    background-color: #3d3d3d;
+    z-index: 9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   #page-container #content-wrapper {
     padding-top: 80px;
     padding-bottom: 70px;
@@ -647,6 +675,24 @@ body::-webkit-scrollbar-thumb {
   #page-container {
     position: relative;
     min-height: 100vh;
+  }
+  #page-container .transition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 0vh;
+    background-color: #3d3d3d;
+    z-index: 9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #page-container #content-wrapper {
     padding-top: 80px;
@@ -739,6 +785,24 @@ body::-webkit-scrollbar-thumb {
   #page-container {
     position: relative;
     min-height: 100vh;
+  }
+  #page-container .transition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 0vh;
+    background-color: #3d3d3d;
+    z-index: 9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #page-container #content-wrapper {
     padding-top: 80px;
@@ -1071,7 +1135,7 @@ body::-webkit-scrollbar-thumb {
     height: 70px;
     position: absolute;
     bottom: 0;
-    z-index: 8;
+    z-index: 10;
   }
   #footer p {
     font-family: "Work Sans", sans-serif;

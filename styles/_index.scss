@@ -62,11 +62,15 @@ body {
     min-height: 100vh;
     .transition {
         position: absolute;
+        top: 0;
+        left: 0;
         width: 100vw;
-        height: 100vh;
+        height: 0vh;
         background-color: $color1;
         z-index: 9;
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     #content-wrapper {
         padding-top: $top-web;
@@ -133,6 +137,18 @@ body {
     #page-container {
         position: relative;
         min-height: 100vh;
+        .transition {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 0vh;
+            background-color: $color1;
+            z-index: 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         #content-wrapper {
             padding-top: $top-mobile;
             padding-bottom: $bottom;
@@ -194,6 +210,18 @@ body {
     #page-container {
         position: relative;
         min-height: 100vh;
+        .transition {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 0vh;
+            background-color: $color1;
+            z-index: 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         #content-wrapper {
             padding-top: $top-mobile;
             padding-bottom: $bottom;
@@ -256,6 +284,18 @@ body {
     #page-container {
         position: relative;
         min-height: 100vh;
+        .transition {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 0vh;
+            background-color: $color1;
+            z-index: 9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         #content-wrapper {
             padding-top: $top-mobile;
             padding-bottom: $bottom;
