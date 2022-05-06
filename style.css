@@ -4961,7 +4961,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #sense_content .modal {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   position: fixed;
   top: 0;
@@ -4974,7 +4974,7 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(0, 0, 0, 0.733);
+  background-color: rgba(0, 0, 0, 0.85);
   margin-top: -1px;
   -webkit-animation: zoom .3s ease-in-out;
           animation: zoom .3s ease-in-out;
