@@ -4866,7 +4866,7 @@ body::-webkit-scrollbar-thumb {
   color: #E0E0E0;
   width: 25%;
   height: 100%;
-  padding: 20px;
+  padding: 20px 0 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4880,11 +4880,24 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Big Shoulders Text", cursive;
+  letter-spacing: 2px;
+}
+
+#sense_content #sense .datos_container .datos_box h1 {
+  font-size: 1.5em;
+}
+
+#sense_content #sense .datos_container .datos_box h3 {
+  font-size: 2em;
 }
 
 #sense_content #sense .datos_container #datos_1 {
   border-left: none;
+}
+
+#sense_content #sense .datos_container #datos_1 h3 {
+  font-size: 1.5em;
 }
 
 #sense_content #sense .datos_container #datos_2 {
@@ -5011,6 +5024,9 @@ body::-webkit-scrollbar-thumb {
   #sense_content #sense .datos_container .datos_box h3 {
     font-size: .9em;
   }
+  #sense_content #sense .datos_container #datos_1 h3 {
+    font-size: .7em;
+  }
   .modal {
     width: 100%;
     height: 100%;
@@ -5060,6 +5076,9 @@ body::-webkit-scrollbar-thumb {
         grid-template-rows: repeat(3, 1fr);
     gap: 6px;
   }
+  #sense_content #sense .datos_container #datos_1 h3 {
+    font-size: .9em;
+  }
   #sense_content #sense .modal img {
     width: 85%;
   }
@@ -5077,10 +5096,10 @@ body::-webkit-scrollbar-thumb {
     font-size: 1.5em;
   }
   #sense_content #sense .datos_container .datos_box h3 {
-    font-size: .6em;
+    font-size: 1em;
   }
   #sense_content #sense .datos_container #datos_1 h3 {
-    font-size: .6em;
+    font-size: .85em;
   }
   #sense_content #sense .modal img {
     width: 90%;
@@ -5106,6 +5125,12 @@ body::-webkit-scrollbar-thumb {
   }
   #sense_content #sense .datos_container .datos_box {
     width: 100%;
+  }
+  #sense_content #sense .datos_container .datos_box h1 {
+    font-size: 1em;
+  }
+  #sense_content #sense .datos_container .datos_box h3 {
+    font-size: 1.2em;
   }
   #sense_content #sense .datos_container #datos_2 {
     border-right: none;
