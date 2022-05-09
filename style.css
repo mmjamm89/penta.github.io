@@ -4828,6 +4828,26 @@ body::-webkit-scrollbar-thumb {
           justify-content: center;
 }
 
+#sense_content #sense .bodegas_construccion {
+  width: 100%;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sense_content #sense .bodegas_construccion h1 {
+  font-size: 6em;
+  color: #3d3d3d;
+  font-family: "Big Shoulders Text", cursive;
+}
+
 #sense_content #sense .titulo {
   font-size: 4em;
   font-family: "Bebas Neue", cursive;
@@ -5033,6 +5053,23 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media screen and (max-width: 1230px) {
+  #sense_content #sense .bodegas_construccion {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sense_content #sense .bodegas_construccion h1 {
+    font-size: 4em;
+    color: #3d3d3d;
+    font-family: "Big Shoulders Text", cursive;
+  }
   #sense_content #sense .datos_container .datos_box h1 {
     font-size: 2em;
   }
@@ -5116,6 +5153,30 @@ body::-webkit-scrollbar-thumb {
   #sense_content #sense .datos_container #datos_1 h3 {
     font-size: .85em;
   }
+  #sense_content #sense .link_sense {
+    width: 100%;
+    height: 100px;
+    padding: 20px 5px 20px 2px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sense_content #sense .link_sense a {
+    text-decoration: none;
+  }
+  #sense_content #sense .link_sense a h1 {
+    color: #3d3d3d;
+    font-family: "Archivo", sans-serif;
+    -webkit-transition: .2s;
+    transition: .2s;
+    font-size: 1.5em;
+  }
+  #sense_content #sense .link_sense a h1:hover {
+    color: #F2922E;
+  }
   #sense_content #sense .modal img {
     width: 90%;
   }
@@ -5124,6 +5185,23 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 700px) {
   #sense_content {
     padding-top: 80px;
+  }
+  #sense_content #sense .bodegas_construccion {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sense_content #sense .bodegas_construccion h1 {
+    font-size: 1.5em;
+    color: #3d3d3d;
+    font-family: "Big Shoulders Text", cursive;
   }
   #sense_content #sense .titulo {
     font-size: 3em;

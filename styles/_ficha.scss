@@ -47,6 +47,19 @@ $top-mobile: 80px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        .bodegas_construccion {
+            width: 100%;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h1 {
+                font-size: 6em;
+                color: $color1;
+                font-family: $font-5;
+            }
+
+        }
         .titulo {
             font-size: $title-web;
             font-family: $font-4;
@@ -197,6 +210,18 @@ $top-mobile: 80px;
 @media screen and (max-width: 1230px) {
     #sense_content {
         #sense {
+            .bodegas_construccion {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    font-size: 4em;
+                    color: $color1;
+                    font-family: $font-5;
+                }
+    
+            }
             .titulo {
             }
             .gallery_container {
@@ -353,6 +378,25 @@ $top-mobile: 80px;
                 #datos_4{                    
                 }            
             }
+            .link_sense {
+                width: 100%;
+                height: 100px;
+                padding: 20px 5px 20px 2px;
+                display: flex;
+                align-items: center;
+                a {
+                    text-decoration: none;
+                    h1 {
+                        color: $color1;
+                        font-family: $font-1;
+                        transition: .2s;
+                        font-size: 1.5em;
+                        &:hover {
+                            color: $color2;
+                        }
+                    }
+                }
+            }
             .descripcion_sense {
                 p{
                 }
@@ -375,6 +419,18 @@ $top-mobile: 80px;
     #sense_content {
         padding-top: $top-mobile;
         #sense {
+            .bodegas_construccion {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                    font-size: 1.5em;
+                    color: $color1;
+                    font-family: $font-5;
+                }
+    
+            }
             .titulo {
                 font-size: 3em;
             }
