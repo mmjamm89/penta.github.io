@@ -107,15 +107,22 @@ $top-mobile: 80px;
                 border-left: none;
             }            
         }
-        .descripcion_sense {
-            display: none;
-            width: 100%;            
-            font-family: $font-1;
-            color: $color1;
-            p{
-                padding-top: 10px;
-                font-size: 1.3em;
-                text-align: justify;
+        .link_sense {
+            width: 100%;
+            height: 100px;
+            padding: 20px 5px 20px 2px;
+            display: flex;
+            align-items: center;
+            a {
+                text-decoration: none;
+                h1 {
+                    color: $color1;
+                    font-family: $font-1;
+                    transition: .2s;
+                    &:hover {
+                        color: $color2;
+                    }
+                }
             }
         }
         .titulo_imagenes {
@@ -155,7 +162,7 @@ $top-mobile: 80px;
     }
     .modal {
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         position: fixed;
         top: 0;
         display: flex;
@@ -165,6 +172,7 @@ $top-mobile: 80px;
         margin-top: -1px;
         animation: zoom .3s ease-in-out;
         min-height: 800px;
+        z-index: 9999;
         img {
             width: 60%;
             object-fit: cover;
