@@ -1242,6 +1242,10 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 1.5px;
 }
 
+#contacto_content .contacto_boxes .datos_contacto .redes_sociales {
+  display: none;
+}
+
 #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
   color: #E0E0E0;
   margin-right: 25px;
@@ -1864,6 +1868,113 @@ body::-webkit-scrollbar-thumb {
     font-family: "Bebas Neue", cursive;
     color: #E0E0E0;
     font-size: .8em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    letter-spacing: 1px;
+  }
+  #contacto_content .contacto_boxes .datos_contacto .redes_sociales a i {
+    color: #E0E0E0;
+    margin-right: 25px;
+    font-size: 1.2em;
+  }
+  #contacto_content .contacto_boxes .datos_contacto .redes_sociales a #facebook {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  #contacto_content .contacto_boxes .datos_contacto .redes_sociales a #facebook:hover {
+    color: #4267B2;
+  }
+  #contacto_content .contacto_boxes .datos_contacto .redes_sociales a #instagram {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  #contacto_content .contacto_boxes .datos_contacto .redes_sociales a #instagram:hover {
+    color: #E1306C;
+  }
+  #contacto_content .contacto_boxes .datos_contacto .redes_sociales a #linkedin {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  #contacto_content .contacto_boxes .datos_contacto .redes_sociales a #linkedin:hover {
+    color: #0072b1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #contacto_content {
+    padding-top: 80px;
+    padding-bottom: 70px;
+    width: 100vw;
+    height: 800px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #contacto_content .title {
+    color: #F2922E;
+    font-size: 3em;
+    font-family: "Bebas Neue", cursive;
+    width: 90%;
+    padding-top: 15px;
+  }
+  #contacto_content .contacto_boxes {
+    width: 90%;
+    height: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  #contacto_content .contacto_boxes .mapa {
+    width: 50%;
+    height: 100%;
+    display: none;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #contacto_content .contacto_boxes .mapa h1 {
+    color: #E0E0E0;
+    font-family: "Bebas Neue", cursive;
+  }
+  #contacto_content .contacto_boxes .datos_contacto {
+    width: 100%;
+    height: 100%;
+    font-family: "Bebas Neue", cursive;
+    color: #E0E0E0;
+    font-size: .6em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5015,7 +5126,7 @@ body::-webkit-scrollbar-thumb {
 
 #sense_content .modal {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   position: fixed;
   top: 0;
   display: -webkit-box;
